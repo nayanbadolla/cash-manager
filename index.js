@@ -3,6 +3,7 @@ var cashGiven=document.querySelector('#cashGiven')
 var calcBtn=document.querySelector('#calcBtn')
 var display=document.querySelector('.display')
 var value=document.querySelectorAll('.noNotes')
+var valueMobile=document.querySelectorAll('.noNotes-mobile')
 
 var amount, cash, noNotes
 
@@ -49,6 +50,7 @@ calcBtn.addEventListener('click', function () {
             noNotes=Math.trunc(balance/notes[i])
             balance=balance%notes[i]
             value[i].innerText=noNotes
+            valueMobile[i].innerText=noNotes
         }
         // notes.forEach(function(note) {
             // if (balance!==0) {
