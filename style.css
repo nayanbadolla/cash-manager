@@ -39,9 +39,37 @@ table {
     margin-left: auto;
 }
 
+header, footer {
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 2em;
+    padding: 1em;
+}
+
+header {
+    margin-top: 2em;
+}
+
+footer {
+    margin-bottom: 2em;
+}
+
 .links {
     color: var(--primary-color);
     margin: 1em;
+}
+
+.code a {
+    color: black;
+    background-color: #ff7f48;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.code a:hover {
+    text-decoration: underline;
 }
 
 .mobile-table {
