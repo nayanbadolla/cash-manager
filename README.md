@@ -5,4 +5,6 @@ Based on the bill amount and cash given, displays appropriate message and calcul
 
 Built using HTML5, CSS3 and JavaScript.
 
+Learnt the exact point of `querySelectorAll`.
+
 Inspired by neogcamp.levelZero
